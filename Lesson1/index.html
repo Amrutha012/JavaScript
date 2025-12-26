@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Mood Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="heading" class="h1">Smart Mood Tracker</h1>
+    <h4 class="h4" id="h4">How are you doing today?</h4>
+    <p id="para" class="para">Select your mood to see a message.</p>
+    <div class="buttons" id="buttons">
+      <button onclick="setMood('happy')" id="happy" class="happy">
+        Happy😊
+      </button>
+      <button onclick="setMood('sad')" id="sad" class="sad">Sad😔</button>
+      <button onclick="setMood('angry')" id="angry" class="angry">
+        Angry😠
+      </button>
+      <button onclick="setMood('neutral')" id="neutral" class="neutral">
+        Neutral😐
+      </button>
+    </div>
+    <script src="script.js">
+      <button onclick="setMood(happy)">Happy</button>;
+    </script>
+  </body>
+</html>

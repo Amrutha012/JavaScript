@@ -1,0 +1,97 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+.h1 {
+  text-align: center;
+  color: darkred;
+  font-family: "Arial", sans-serif;
+}
+.h4 {
+  text-align: center;
+  color: orangered;
+  font-family: "Arial", sans-serif;
+  margin-top: -10px;
+}
+.para {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  color: black;
+  border: 2px solid black;
+  width: 30%;
+  height: auto;
+  padding: 5px;
+  border-radius: 7px;
+  margin: auto;
+  font-weight: bold;
+  background-color: rgb(147, 22, 205);
+  color: white;
+}
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+.happy {
+  padding: 30px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: navy;
+  color: yellow;
+  cursor: pointer;
+}
+
+.sad {
+  padding: 30px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.angry {
+  padding: 30px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: darkred;
+  color: white;
+  cursor: pointer;
+}
+.neutral {
+  padding: 30px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: gray;
+  color: darkred;
+  cursor: pointer;
+}
+.buttons button {
+  transition: all 0.3s ease;
+}
+.buttons button:hover {
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.7);
+  transform: scale(1.05);
+}
+.happy:hover {
+  box-shadow: 0 0 15px #00ffcc;
+}
+
+.sad:hover {
+  box-shadow: 0 0 15px #4da6ff;
+}
+
+.angry:hover {
+  box-shadow: 0 0 15px #ff4d4d;
+}
+
+.neutral:hover {
+  box-shadow: 0 0 15px #cccccc;
+}
